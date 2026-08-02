@@ -4,7 +4,10 @@ namespace App\Livewire;
 
 use App\Ai\Agents\LaravelAssistant;
 use Illuminate\Support\Facades\Auth;
+use Livewire\Attributes\Title;
 use Livewire\Component;
+
+#[Title('Chatbot')]
 
 class Chatbot extends Component
 {
