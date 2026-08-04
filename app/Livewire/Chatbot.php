@@ -68,7 +68,9 @@ class Chatbot extends Component
                 'role' => 'assistant',
                 'content' => (string) $response,
             ];
-        } catch (\Exception $e) {
+        } catch (\Throwable $e) {
+            report($e);
+            
             $this->messages[] = [
                 'role' => 'assistant',
                 'content' => 'Sorry , I encountered an error. Please Try again!',
@@ -78,7 +80,7 @@ class Chatbot extends Component
         $this->dispatch('message-added');
     }
 
-    public function clearConversations(): void 
+    public function clearConversations(): void
     {
         $this->messages = [];
         $this->conversationId = null;
@@ -86,6 +88,6 @@ class Chatbot extends Component
 
     public function render()
     {
-        return view ('livewire.chatbot');
+        return view('livewire.chatbot');
     }
 }
