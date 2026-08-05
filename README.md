@@ -19,7 +19,7 @@ The chatbot allows authenticated users to send messages, receive AI-generated re
 ## Features
 
 - AI-powered chatbot built with Laravel AI SDK
-- Persistent conversations with conversation memory
+- Answers questions about Laravel, PHP, Livewire, Filament, Eloquent, and related technologies
 - Real-time chat experience using Livewire
 - Thinking indicator while waiting for AI responses
 - Graceful error handling for failed AI requests
