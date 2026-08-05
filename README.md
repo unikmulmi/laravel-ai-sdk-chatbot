@@ -33,14 +33,14 @@ The chatbot allows authenticated users to send messages, receive AI-generated re
 - **PHP 8.3+**
 - **Laravel 13**
 
-### AI
-- **Laravel AI SDK**
-- **Google Gemini**
-
 ### Frontend
 - **Livewire**
 - **Flux UI**
 - **Tailwind CSS**
+
+### AI
+- **Laravel AI SDK**
+- **Google Gemini**
 
 ### Development Tools
 - **Vite**
