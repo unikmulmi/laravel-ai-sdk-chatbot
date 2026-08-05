@@ -82,3 +82,108 @@ Conversation Stored
    ▼
 Livewire UI Updates
 ```
+
+## Installation
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/laravel-ai-sdk-chatbot.git
+```
+
+### 2. Navigate into the project
+
+```bash
+cd laravel-ai-sdk-chatbot
+```
+
+### 3. Install PHP dependencies
+
+```bash
+composer install
+```
+
+### 4. Install JavaScript dependencies
+
+```bash
+npm install
+```
+
+### 5. Create the environment file
+
+```bash
+cp .env.example .env
+```
+
+> **Windows (Command Prompt):**
+
+```cmd
+copy .env.example .env
+```
+
+> **Windows (PowerShell):**
+
+```powershell
+Copy-Item .env.example .env
+```
+
+### 6. Generate the application key
+
+```bash
+php artisan key:generate
+```
+
+### 7. Configure your environment variables
+
+Update your `.env` file with your database credentials and Gemini API key.
+
+### 8. Run the database migrations
+
+```bash
+php artisan migrate
+```
+
+### 9. Start the development server
+
+Open **two terminals**:
+
+Terminal 1
+
+```bash
+php artisan serve
+```
+
+Terminal 2
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://127.0.0.1:8000
+```
+
+## Environment Variables
+
+Create a `.env` file from `.env.example` and configure the following variables:
+
+```env
+APP_NAME="Laravel AI SDK Chatbot"
+
+APP_URL=http://127.0.0.1:8000
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+> **Note:** Never commit your actual API keys or sensitive credentials to GitHub. Keep them only in your local `.env` file.
