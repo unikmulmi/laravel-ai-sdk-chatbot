@@ -57,3 +57,28 @@ When a user submits a message, the application follows this workflow:
 4. The selected AI provider (Google Gemini) generates a response.
 5. The assistant's response is stored in the conversation history.
 6. Livewire updates the chat interface automatically without reloading the page.
+
+```text
+User
+   │
+   ▼
+Livewire Chat Component
+   │
+   ▼
+Laravel Assistant Agent
+   │
+   ▼
+Laravel AI SDK
+   │
+   ▼
+Google Gemini
+   │
+   ▼
+Assistant Response
+   │
+   ▼
+Conversation Stored
+   │
+   ▼
+Livewire UI Updates
+```
