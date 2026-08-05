@@ -1,6 +1,10 @@
 # Laravel AI SDK Chatbot
 
-An AI-powered chatbot built using Laravel AI SDK, Livewire, Flux UI, and Tailwind CSS. The chatbot supports persistent conversations, remembers chat history, and provides a modern interactive chat experience.
+## About the Project
+
+This project is a modern AI chatbot built using the Laravel AI SDK. It demonstrates how to integrate large language models into a Laravel application while maintaining a clean architecture and responsive user experience.
+
+The chatbot allows authenticated users to send messages, receive AI-generated responses, and continue conversations using persistent conversation history. The interface is powered by Livewire and Flux UI, providing a smooth, real-time chat experience without requiring a separate frontend framework.
 
 ## Table of Contents
 
@@ -21,3 +25,24 @@ An AI-powered chatbot built using Laravel AI SDK, Livewire, Flux UI, and Tailwin
 - Graceful error handling for failed AI requests
 - Modern responsive interface with Flux UI and Tailwind CSS
 - Authentication support for logged-in users
+
+
+## Tech Stack
+
+### Backend
+- **PHP 8.3+**
+- **Laravel 13**
+
+### AI
+- **Laravel AI SDK**
+- **Google Gemini**
+
+### Frontend
+- **Livewire**
+- **Flux UI**
+- **Tailwind CSS**
+
+### Development Tools
+- **Vite**
+- **Composer**
+- **NPM**
