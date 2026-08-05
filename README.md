@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This project is a modern AI chatbot built using the Laravel AI SDK. It demonstrates how to integrate large language models into a Laravel application while maintaining a clean architecture and responsive user experience.
+This project was built to explore Laravel's official AI SDK and learn how to integrate large language models into a Laravel application.
 
 The chatbot allows authenticated users to send messages, receive AI-generated responses, and continue conversations using persistent conversation history. The interface is powered by Livewire and Flux UI, providing a smooth, real-time chat experience without requiring a separate frontend framework.
 
@@ -46,3 +46,14 @@ The chatbot allows authenticated users to send messages, receive AI-generated re
 - **Vite**
 - **Composer**
 - **NPM**
+
+## How It Works
+
+When a user submits a message, the application follows this workflow:
+
+1. The user enters a message in the chat interface.
+2. Livewire validates and sends the message to the backend.
+3. The Laravel AI SDK retrieves or creates the conversation.
+4. The selected AI provider (Google Gemini) generates a response.
+5. The assistant's response is stored in the conversation history.
+6. Livewire updates the chat interface automatically without reloading the page.
