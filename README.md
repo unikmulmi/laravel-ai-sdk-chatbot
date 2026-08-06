@@ -71,6 +71,41 @@ Conversation Stored
    ▼
 Livewire UI Updates
 ```
+## 📸 Screenshots
+
+### 🔐 Login Page
+
+Users must authenticate before accessing the chatbot, ensuring that conversations remain associated with their accounts.
+
+![Login Page](screenshots/Login.png)
+
+### 🏠 Chat Dashboard
+
+After logging in, users are presented with a clean chat interface where they can start a new conversation with the Laravel AI Assistant.
+
+![Dashboard](screenshots/Dashboard.png)
+
+### 👋 Starting a Conversation
+
+The chatbot greets the user and is ready to answer Laravel and PHP-related development questions.
+
+![Greeting](screenshots/hello.png)
+
+### 💻 Laravel Development Assistance
+
+The assistant provides practical guidance, code examples, and explanations for Laravel development questions.
+
+**Example:** Laravel Question #1
+
+![Laravel Question 1](screenshots/response1.png)
+
+### 📖 Code Explanation & Best Practices
+
+The chatbot continues the conversation by explaining Laravel concepts and recommending modern development practices.
+
+**Example:** Laravel Question #2
+
+![Laravel Question 2](screenshots/response2.png)
 
 ## Installation
 
